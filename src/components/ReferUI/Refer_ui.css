@@ -6,6 +6,10 @@
   line-height: 21px;
 }
 
+.back {
+  display: none;
+}
+
 .refer_ui {
   display: flex;
   justify-content: space-between;
@@ -35,4 +39,17 @@
   border: 0.2px solid black;
   padding: 8px 10px;
   border-radius: 15px;
+}
+
+@media screen and (max-width: 580px) {
+  .refer_route {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .back {
+    display: inline-block;
+    color: #800080;
+  }
 }

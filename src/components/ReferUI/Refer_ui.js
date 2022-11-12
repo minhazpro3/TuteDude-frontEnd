@@ -1,5 +1,6 @@
 import React from "react";
 import { IoIosArrowForward } from "react-icons/io";
+import { BiLeftArrowAlt } from "react-icons/bi";
 import "./Refer_ui.css";
 
 const Refer_ui = () => {
@@ -9,6 +10,10 @@ const Refer_ui = () => {
         <h3 className="refer_route">
           UI/UX <IoIosArrowForward /> Refer & Earn <IoIosArrowForward /> Friends
           Referred
+        </h3>
+        <h3 className="back">
+          {" "}
+          <BiLeftArrowAlt /> go back
         </h3>
         <div className="refer_ui">
           <div>

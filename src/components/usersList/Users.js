@@ -44,12 +44,16 @@ const Users = () => {
         <h3 className="enroll_index">
           Friends who enrolled <span id="index">(3)</span>
         </h3>
-        <div className="card_contain">
-          {enrolled.map((enroll) => (
-            <User_card key={enroll.id} {...enroll} />
-          ))}
+        <div className="cardPar_contain">
+          <div className="card_contain">
+            {enrolled.map((enroll) => (
+              <User_card key={enroll.id} {...enroll} />
+            ))}
+          </div>
         </div>
-        <h3 className="term">Term & Conditions</h3>
+        <div className="cardPar_contain">
+          <h3 className="term">Term & Conditions</h3>
+        </div>
       </div>
     </div>
   );

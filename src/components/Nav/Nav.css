@@ -32,3 +32,32 @@
 .nav_route {
   opacity: 40%;
 }
+
+/* responsive with media queries */
+@media screen and (max-width: 580px) {
+  .header_container {
+    margin: 0px 4px;
+    margin-top: 59px;
+  }
+  .nav_subCon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav_route {
+    display: none;
+  }
+  .nav_routes {
+    gap: 8px;
+  }
+  .profile_route {
+    gap: 2px;
+    background-color: #800080;
+    color: white;
+    padding: 0px 17px;
+    border-radius: 15px;
+  }
+  .logo_img img {
+    width: 140px;
+  }
+}

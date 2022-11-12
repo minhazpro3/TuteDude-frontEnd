@@ -23,3 +23,16 @@
   margin-top: 60px;
   color: #800080;
 }
+
+@media screen and (max-width: 580px) {
+  .cardPar_contain {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .card_contain {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2px;
+  }
+}
