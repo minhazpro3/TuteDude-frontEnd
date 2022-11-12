@@ -1,0 +1,25 @@
+.enroll_index {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #800080;
+}
+
+#index {
+  opacity: 50%;
+  color: black;
+}
+
+.card_contain {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.term {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 60px;
+  color: #800080;
+}

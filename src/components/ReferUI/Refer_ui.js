@@ -5,7 +5,7 @@ import "./Refer_ui.css";
 const Refer_ui = () => {
   return (
     <div>
-      <div className="container">
+      <div>
         <h3 className="refer_route">
           UI/UX <IoIosArrowForward /> Refer & Earn <IoIosArrowForward /> Friends
           Referred
@@ -17,7 +17,7 @@ const Refer_ui = () => {
               EDCH54{" "}
             </h4>
           </div>
-          <div>
+          <div className="wallet_balance">
             <h4>Wallet Balance</h4>
             <h4 className="code_wallet">£500</h4>
           </div>

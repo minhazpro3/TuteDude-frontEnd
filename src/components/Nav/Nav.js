@@ -3,7 +3,6 @@ import "./Nav.css";
 import image from "../images/image 1.png";
 import { FaChevronDown } from "react-icons/fa";
 import { HiUserCircle } from "react-icons/hi";
-import Refer_ui from "../ReferUI/Refer_ui";
 
 const Nav = () => {
   return (
@@ -24,7 +23,6 @@ const Nav = () => {
           </div>
         </div>
       </div>
-      <Refer_ui />
     </div>
   );
 };

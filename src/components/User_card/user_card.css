@@ -1,0 +1,59 @@
+.card_sizing {
+  width: 285px;
+  height: 230px;
+  background: linear-gradient(270deg, #800080 0%, #ff864c 100%);
+  border-radius: 20px;
+  padding: 0px 20px;
+}
+
+.name_date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0px;
+  color: white;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.date {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.course_index {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 0px;
+  color: white;
+}
+
+.courses {
+  margin: 3px;
+  border: 1px solid white;
+  padding: 7px 10px;
+  border-radius: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.amount_li {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+}
+
+#amount {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
