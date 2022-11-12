@@ -1,0 +1,32 @@
+/* nav style */
+.header_container {
+  margin: 0px 74px;
+}
+
+.nav_subCon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_routes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  color: #800080;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  line-height: 123.5%;
+}
+
+.profile_route {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* icons */
